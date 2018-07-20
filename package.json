@@ -1,0 +1,13 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Site de Julio Yacot",
+  "main": "index.js",
+  "repository": "https://github.com/jyacot/web.git",
+  "author": "Julio <jyacot@gmail.com>",
+  "license": "MIT",
+  "scripts":{
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  }
+}

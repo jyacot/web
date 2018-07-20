@@ -1,2 +1,2 @@
-# Julio Yacot
-## Javascript Fan
+# Blog
+<Posts/>
