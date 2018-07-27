@@ -7,7 +7,7 @@
   "author": "Julio <jyacot@gmail.com>",
   "license": "MIT",
   "scripts":{
-    "dev": "vuepress dev",
-    "build": "vuepress build"
+    "dev": "vuepress blog dev",
+    "build": "vuepress blog build"
   }
 }

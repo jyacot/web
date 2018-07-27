@@ -2,7 +2,8 @@
     <div>
         <ul>
             <li v-for="post in posts">
-                {{post}}
+                <!-- {{getUrlPost(post.id)}} -->
+                <a :href="getUrlPost(post.id)">{{post}}</a>
             </li>
         </ul>
     </div>
@@ -20,6 +21,12 @@ export default {
             .then(response=>response.json())
             .then(data => this.posts = data)
             .catch(error=>alert(error))
+    },
+    methods:{
+        getUrlPost(id){
+            let objeto = this.posts.filter(post=>post.id===id);
+            return `/post/${objeto[0].id}`;
+        }
     }
 }
 </script>

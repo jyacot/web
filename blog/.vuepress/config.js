@@ -12,7 +12,7 @@ module.exports = {
 				{text:"Contacto", link: "/contacto/"},
 				{text:"CV", link:"https://www.linkedin.com/in/jyacot/"},
 				{text:"Twitter", link: "https://twitter.com/jyacot"}
-			]},
+			]}
 		]
 	}
 }
